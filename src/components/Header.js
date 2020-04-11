@@ -10,6 +10,9 @@ width: 100vw;
 height:13vh;
 display:flex;
 justify-content: space-between;
+@media(max-width:900px){
+    height: 10.5vh;
+}
 img{
     width:4.5em;
     height:4.5em;
@@ -39,13 +42,19 @@ margin-left:-4.5em;
 }
 @media(max-width:898px){
     p{
-        padding-top: 1.2yarem;
+        padding-top: 1.2em;
         margin-left: -4em;
     }
 }
 @media(max-width:700px){
     p{
         padding-top: 1.2em;
+        margin-left: -4em;
+    }
+}
+@media(max-width:315px){
+    p{
+        padding-top: 1.5em;
         margin-left: -4em;
     }
 }

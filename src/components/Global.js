@@ -19,6 +19,7 @@ import {createGlobalStyle} from 'styled-components'
     }
     html{
       font-size: 62.5%;
+      background-color:#281431;
     }
 
     @media(max-width:900px){
@@ -28,6 +29,9 @@ import {createGlobalStyle} from 'styled-components'
           width:2.5em;
           height:2.5em;
           margin-left: 3em;
+        }
+        header{
+          height:10vh;
         }
       }
       @media(max-width:315px){

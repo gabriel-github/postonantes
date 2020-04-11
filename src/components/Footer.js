@@ -8,15 +8,14 @@ import {MdLocationOn} from "react-icons/md";
 const Footer = styled.footer`
 position: absolute;
  footer{ 
-  
    @media(max-width: 315px){
-     widows: 90vw ;
+     width: 90vw ;
      justify-content:center;
      align-items:center;
    }
     color:#ffff;
     display:flex;
-    height: 27vh;
+    height: 22vh;
     width:100vw; 
     background-color:#281431;
     justify-content: space-between;
@@ -46,14 +45,26 @@ position: absolute;
         @media(max-width:1085px){
           margin-left:2em;
         }
-        @media(max-width:889px){
-          margin-left:3.1em;
+        @media(max-width:966px){
+          margin-left:1.4em;
+        }
+        @media(max-width:890px){
+          margin-left:3.5em;
+        }
+        @media(max-width:790px){
+          margin-left:2.2em;
         }
         @media(max-width:700px){
-          margin-left:1.5em;
+          margin-left:1.2em;
         }
-        @media(max-width:500px){
+        @media(max-width:579px){
           margin-left:0.5em;
+        }
+        @media(max-width:567px){
+          margin-left:0.4em;
+        }
+        @media(max-width:524px){
+          margin-left:0.2em;
         }
 
       }
@@ -63,7 +74,6 @@ position: absolute;
       display:inline-block;
       font-size:1.0rem;
       color:#ffff;
-      bottom:0;
       align-items:center;
       margin-top:13em;
     }
@@ -75,7 +85,9 @@ position: absolute;
       height:18vh;
       font-weight:500;
       display:flex;
+      flex-direction:column;
       margin-right:1.5em;
+      margin-top:7em;
       align-items:center;
       margin-bottom:2em;
       border-radius: 0.5em;
@@ -103,7 +115,7 @@ export default function footer() {
               </div>
 
               <div className="direitos">
-                Posto Nantes @2020 Todos os direitos reservados| desenvolvido por gabriel
+                Posto Nantes @2020 Todos os direitos reservados
               </div> 
               <div className="horario">
               Funcionamento de segunda a domindo das 
