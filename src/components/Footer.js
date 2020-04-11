@@ -6,20 +6,21 @@ import {MdLocationOn} from "react-icons/md";
 
 
 const Footer = styled.footer`
-position: absolute;
+    position: absolute;
+    width:100vw; 
+    background-color:#281431;
  footer{ 
-   @media(max-width: 315px){
+   
+    color:#ffff;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 3vh;
+    @media(max-width: 315px){
      width: 90vw ;
      justify-content:center;
      align-items:center;
    }
-    color:#ffff;
-    display:flex;
-    height: 5.8vh;
-    width:100vw; 
-    background-color:#281431;
-    justify-content: space-between;
-    align-items:center;
 
     .endereco{
       font-size:1.2rem;

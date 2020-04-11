@@ -11,6 +11,9 @@ width:5.1em;
 color:white;
 margin-left:8%;
 margin-top:2%;
+@media(max-width:500px){
+  margin-top:3.5%;
+}
 div{
   border-bottom: solid 1px #ccc;
   width:100%;
