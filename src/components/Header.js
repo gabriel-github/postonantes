@@ -10,20 +10,27 @@ width: 100vw;
 height:13vh;
 display:flex;
 justify-content: space-between;
-@media(max-width:900px){
+@media(max-width:1087px){
     height: 9.5vh;
 }
 img{
     width:4.5em;
     height:4.5em;
     margin-left: 2.6em;
-    display:flex;
-    
+    display:flex; 
 }
-@media(max-width:1087px){
+@media(max-width:900px){
     img{
         width:3.5em;
         height:3.5em;
+        margin-left: 1.5em;
+        margin-top:0.2em; 
+    }
+}
+@media(max-width:400px){
+    img{
+        width:2.5em;
+        height:2.5em;
         margin-left: 1.5em;
         margin-top:0.2em; 
     }

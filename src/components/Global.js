@@ -34,7 +34,7 @@ import {createGlobalStyle} from 'styled-components'
           height:10vh;
         }
       }
-      @media(max-width:315px){
+      @media(max-width:325px){
       html{
         font-size:36%;
       }
