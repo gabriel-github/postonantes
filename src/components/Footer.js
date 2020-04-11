@@ -17,7 +17,7 @@ const Footer = styled.footer`
      align-items:center;
    }
     .containerFooter{
-      margin-top:3vh;
+      margin-top:4vh;
       color:#ffff;
       display:flex;
       justify-content: space-between;
