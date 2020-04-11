@@ -24,6 +24,9 @@ display:grid;
 grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
 justify-content:center;
 align-items:center;
+.image{
+     z-index:10;
+   }
 img{
   width:90%;
   max-width:980px;

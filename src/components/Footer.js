@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Group from './assets/Group.png';
 import {MdLocationOn} from "react-icons/md";
 
 
@@ -16,6 +15,7 @@ const Footer = styled.footer`
      justify-content:center;
      align-items:center;
    }
+
     .containerFooter{
       margin-top:4vh;
       color:#ffff;
@@ -110,6 +110,10 @@ export default function footer() {
       <>
           <Footer>  
             <footer>
+              <div className="image">
+                  <img src="Group" alt=""/>
+              </div>
+
               <div className="containerFooter">
               <div className="endereco">
                 <br/>
@@ -117,7 +121,7 @@ export default function footer() {
                 Rua Clementino  ,10- Centro<br/>
                 n°  10 <br/>
                 Bairro Centro<br/>
-                (18) 99814-4700<br/>
+                (18) 99667-2717<br/>
                 <a href="https://www.google.com/maps/place/Posto+Nantes/@-22.6189138,-51.240967,17z/data=!4m8!1m2!3m1!2sPosto+Nantes!3m4!1s0x0:0x5544f3769f35fc53!8m2!3d-22.6162553!4d-51.2396839"> Localização <MdLocationOn/></a>
               </div>
 

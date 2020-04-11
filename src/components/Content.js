@@ -15,7 +15,8 @@ export default function content(){
                 <img src={promo} alt=""/>
                 <img src={promo} alt=""/>
                 <img src={promo} alt=""/>
-            </Title>  
+             
+            </Title> 
             </Container>
         </>
     );
