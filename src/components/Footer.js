@@ -9,19 +9,22 @@ const Footer = styled.footer`
     position: absolute;
     width:100vw; 
     background-color:#281431;
-    padding-bottom:6vh;
- footer{ 
 
-    color:#ffff;
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    height: 3vh;
+ footer{ 
     @media(max-width: 315px){
      width: 90vw ;
      justify-content:center;
      align-items:center;
    }
+    .containerFooter{
+      margin-top:3vh;
+      color:#ffff;
+      display:flex;
+      justify-content: space-between;
+      align-items:center;
+      height: 3vh;
+
+    }
 
     .endereco{
       font-size:1.2rem;
@@ -107,6 +110,7 @@ export default function footer() {
       <>
           <Footer>  
             <footer>
+              <div className="containerFooter">
               <div className="endereco">
                 <br/>
                 <br/>           
@@ -123,6 +127,7 @@ export default function footer() {
               <div className="horario">
               Funcionamento de segunda a domindo das 
               9:00 am às 20:00 pm
+              </div>
               </div>
             </footer>
           </Footer> 
