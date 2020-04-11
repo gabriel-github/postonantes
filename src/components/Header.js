@@ -13,6 +13,15 @@ justify-content: space-between;
 @media(max-width:600px){
     height: 9.5vh;
 }
+@media(max-height:580px){
+    height: 15vh;
+    img{
+    width:1.5em;
+    height:1.5em;
+    margin-left: 2.6em;
+    display:flex; 
+}
+}
 img{
     width:4.5em;
     height:4.5em;

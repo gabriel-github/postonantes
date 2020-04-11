@@ -22,6 +22,7 @@ import {createGlobalStyle} from 'styled-components'
       background-color:#281431;
     }
 
+
     @media(max-width:900px){
       html{
         font-size:40%;
@@ -40,6 +41,8 @@ import {createGlobalStyle} from 'styled-components'
       }
     
    }
+   
+
 }`
 export default function global() {
   return (
