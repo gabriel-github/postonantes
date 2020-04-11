@@ -14,7 +14,7 @@ justify-content: space-between;
     height: 9.5vh;
 }
 @media(max-height:580px){
-    height: 15vh;
+    height: 16vh;
     img{
     width:1.5em;
     height:1.5em;
