@@ -9,8 +9,9 @@ const Footer = styled.footer`
     position: absolute;
     width:100vw; 
     background-color:#281431;
+    padding-bottom:6vh;
  footer{ 
-   
+
     color:#ffff;
     display:flex;
     justify-content: space-between;
