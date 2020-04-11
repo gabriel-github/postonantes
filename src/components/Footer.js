@@ -15,7 +15,7 @@ position: absolute;
    }
     color:#ffff;
     display:flex;
-    height: 6.5vh;
+    height: 5.8vh;
     width:100vw; 
     background-color:#281431;
     justify-content: space-between;
