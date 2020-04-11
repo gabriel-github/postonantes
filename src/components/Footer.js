@@ -15,7 +15,7 @@ position: absolute;
    }
     color:#ffff;
     display:flex;
-    height: 22vh;
+    height: 2vh;
     width:100vw; 
     background-color:#281431;
     justify-content: space-between;
@@ -33,6 +33,7 @@ position: absolute;
       margin-bottom:2em;
       border-radius: 0.5em;
       padding-left:0.9em;
+      margin-top:13em;
       a{
         font-size:1.8rem;
         padding-top: 0.3em;
@@ -75,7 +76,7 @@ position: absolute;
       font-size:1.0rem;
       color:#ffff;
       align-items:center;
-      margin-top:13em;
+      margin-top:30em;
     }
 
     .horario{
@@ -87,7 +88,7 @@ position: absolute;
       display:flex;
       flex-direction:column;
       margin-right:1.5em;
-      margin-top:7em;
+      margin-top:19em;
       align-items:center;
       margin-bottom:2em;
       border-radius: 0.5em;

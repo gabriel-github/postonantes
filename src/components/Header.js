@@ -11,7 +11,7 @@ height:13vh;
 display:flex;
 justify-content: space-between;
 @media(max-width:900px){
-    height: 10.5vh;
+    height: 9.5vh;
 }
 img{
     width:4.5em;
