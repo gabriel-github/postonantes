@@ -122,7 +122,7 @@ export default function footer() {
                 n°  10 <br/>
                 Bairro Centro<br/>
                 (18) 99667-2717<br/>
-                <a href="https://www.google.com/maps/place/Posto+Nantes/@-22.6189138,-51.240967,17z/data=!4m8!1m2!3m1!2sPosto+Nantes!3m4!1s0x0:0x5544f3769f35fc53!8m2!3d-22.6162553!4d-51.2396839"> Localização <MdLocationOn/></a>
+                <a href="https://www.google.com/maps/place/Posto+Nantes/@-22.6189138,-51.240967,17z/data=!4m8!1m2!3m1!2sPosto+Nantes!3m4!1s0x0:0x5544f3769f35fc53!8m2!3d-22.6162553!4d-51.2396839"> Localização <MdLocationOn size={22}/></a>
               </div>
 
               <div className="direitos">
