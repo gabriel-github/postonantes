@@ -10,7 +10,7 @@ width: 100vw;
 height:13vh;
 display:flex;
 justify-content: space-between;
-@media(max-width:600px){
+@media(max-width:500px){
     height: 9.5vh;
 }
 @media(max-height:580px){
