@@ -19,7 +19,7 @@ import {createGlobalStyle} from 'styled-components'
     }
     html{
       font-size: 62.5%;
-      background-color:#004472;
+      background-color:#1a2b3b;
     }
 
 

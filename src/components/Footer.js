@@ -7,7 +7,7 @@ import {MdLocationOn} from "react-icons/md";
 const Footer = styled.footer`
     position: absolute;
     width:100vw; 
-    background-color:##004472;
+    background-color:#1a2b3b;
 
  footer{ 
     @media(max-width: 315px){
