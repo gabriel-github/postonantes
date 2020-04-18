@@ -5,7 +5,7 @@ import Group4 from './assets/Group4.svg';
 
 const Header = styled.header`
 position:relative;
-background-color: #FFEC4E;
+background-color: ##fed51b;
 width: 100vw;
 height:13vh;
 display:flex;

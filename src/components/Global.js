@@ -11,7 +11,7 @@ import {createGlobalStyle} from 'styled-components'
    
  }
     body{
-        background-color:#779ecb;
+        background-color:#04b5eb;
         font: 400 16px Roboto, sans-serif;
         -webkit-font-smoothing: antialiased;
         overflow-y:auto;
@@ -19,7 +19,7 @@ import {createGlobalStyle} from 'styled-components'
     }
     html{
       font-size: 62.5%;
-      background-color:#281431;
+      background-color:#004472;
     }
 
 
