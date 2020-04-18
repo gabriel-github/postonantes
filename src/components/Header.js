@@ -1,6 +1,6 @@
 import  React  from 'react';
 import  styled from 'styled-components';
-import Group4 from './assets/Group4.svg';
+import postoqualquer from './assets/postoqualquer.png';
 
 
 const Header = styled.header`
@@ -80,7 +80,7 @@ margin-left:-4.5em;
 export default function header(){
     return(
         <Header>
-            <img src={Group4} alt="logo"/>
+            <img src={postoqualquer} alt="logo"/>
 
             <p>
               POSTO  NANTES
