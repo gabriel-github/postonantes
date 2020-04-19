@@ -54,7 +54,7 @@ font-weight: 700;
 font-family: 'Nunito', sans-serif;
 color: #442851;
 padding-top:0.7em;
-margin-left:-4em;
+margin-left:-4.5em;
 }
 @media(max-width:898px){
     p{
