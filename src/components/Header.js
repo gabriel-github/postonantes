@@ -1,6 +1,6 @@
 import  React  from 'react';
 import  styled from 'styled-components';
-import postoqualquer from './assets/postoqualquer.png';
+import postoqualquer from './assets/postoqualquer.svg';
 
 
 const Header = styled.header`
@@ -54,7 +54,7 @@ font-weight: 700;
 font-family: 'Nunito', sans-serif;
 color: #442851;
 padding-top:0.7em;
-margin-left:-4.5em;
+margin-left:-4em;
 }
 @media(max-width:898px){
     p{
