@@ -97,7 +97,6 @@ const Footer = styled.footer`
       align-items:center;
       margin-bottom:2em;
       border-radius: 0.5em;
-      padding-left:0.9em;
     }
  }
 
@@ -129,7 +128,7 @@ export default function footer() {
                 Posto Nantes @2020 Todos os direitos reservados
               </div> 
               <div className="horario">
-              Funcionamento de segunda a domindo das 
+              Funcionamento de segunda a domindo <br/> das 
               9:00 am às 20:00 pm
               </div>
               </div>
