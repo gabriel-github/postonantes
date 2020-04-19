@@ -1,6 +1,6 @@
 import  React  from 'react';
 import  styled from 'styled-components';
-import postoqualquer from './assets/postoqualquer.svg';
+import postoqualquer from './assets/postoqualquer.png';
 
 
 const Header = styled.header`
