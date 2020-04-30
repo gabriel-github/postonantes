@@ -9,12 +9,12 @@ export default function content(){
             <Container> 
             <Promoção>  Promoções  <div/> </Promoção>
             <Title>
-                <img src={promo} alt=""/>
-                <img src={promo} alt=""/>
-                <img src={promo} alt=""/>
-                <img src={promo} alt=""/>
-                <img src={promo} alt=""/>
-                <img src={promo} alt=""/>
+                <img src={promo} alt="promoções do posto de gasolina"/>
+                <img src={promo} alt="promoções do posto de gasolina"/>
+                <img src={promo} alt="promoções do posto de gasolina"/>
+                <img src={promo} alt="promoções do posto de gasolina"/>
+                <img src={promo} alt="promoções do posto de gasolina"/>
+                <img src={promo} alt="promoções do posto de gasolina"/>
              
             </Title> 
             </Container>
