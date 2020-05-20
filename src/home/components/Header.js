@@ -1,4 +1,4 @@
-/*import  React  from 'react';
+import  React  from 'react';
 import  styled from 'styled-components';
 import postoqualquer from './assets/postoqualquer.png';
 import Menutoggle from './Menu'
@@ -141,6 +141,7 @@ padding-top:0.7em;
     }
 @media(max-width:898px){
     .menu-toggle{
+        width: 2.5em;
         margin-right: 3em;
         margin-top: 1em;
 
@@ -149,14 +150,16 @@ padding-top:0.7em;
 }
 @media(max-width:700px){
     .menu-toggle{
-        margin-right: 2.5em;
+        width: 2em;
+        margin-right: 2em;
         margin-top: 0.8em;
         
     }
 }
 @media(max-width:315px){
     .menu-toggle{
-        margin-right: 1.5em;
+        width: 2em;
+        margin-right: 1.2em;
         margin-top: 0.8em;
         
     }

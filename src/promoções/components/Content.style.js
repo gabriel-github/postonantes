@@ -5,7 +5,7 @@ padding-bottom: 4em;
 width:100vw;
 `;
 
-/*export const Promoção = styled.div`
+export const Promoção = styled.div`
 font-size: 2.6rem;
 width:5.1em;
 color:white;

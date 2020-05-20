@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import {createGlobalStyle} from 'styled-components'
 
  const Global = createGlobalStyle`
@@ -19,7 +19,6 @@ import {createGlobalStyle} from 'styled-components'
     }
     html{
       font-size: 62.5%;
-      background-color:#1a2b3b;
     }
 
 

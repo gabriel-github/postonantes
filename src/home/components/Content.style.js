@@ -5,9 +5,9 @@ padding-bottom: 4em;
 width:100vw;
 `;
 
-/*export const Promoção = styled.div`
+export const Combustivel = styled.div`
 font-size: 2.6rem;
-width:5.1em;
+width:5.6em;
 color:white;
 margin-left:8%;
 margin-top:2%;

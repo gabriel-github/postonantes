@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import {MdLocationOn} from "react-icons/md";
 
@@ -125,7 +125,7 @@ export default function footer() {
               </div>
 
               <div className="direitos">
-                Posto Nantes @2020 Todos os direitos reservados
+                Posto Nantes &copy; 2020 Todos os direitos reservados
               </div> 
               <div className="horario">
               Funcionamento de segunda a domindo <br/> das 

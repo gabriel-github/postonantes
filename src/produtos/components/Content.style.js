@@ -5,10 +5,10 @@ padding-bottom: 4em;
 width:100vw;
 `;
 
-/*export const Promoção = styled.div`
+export const Produtos = styled.div`
 font-size: 2.6rem;
-width:5.1em;
-color:white;
+width:4.4em;
+color:#ffff;
 margin-left:8%;
 margin-top:2%;
 @media(max-width:500px){
@@ -28,14 +28,9 @@ img{
   width:90%;
   max-width:980px;
   height:40vh;
-  background-color:white;
-  border-radius:1%;
   margin-top: 7.5vh;
   margin:auto;
   margin-top:4.5vh;
-:hover{
-  box-shadow: 7px 7px  5px #442851 ;
-}
 }
 
 `;
