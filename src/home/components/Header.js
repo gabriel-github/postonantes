@@ -79,6 +79,22 @@ padding-top:0.7em;
     width: 3em;
     margin-top: 0.3em;
 }
+@media(max-width:898px){
+    .divInvisivel{
+        margin-right: 1.4em;
+    }
+
+}
+@media(max-width:700px){
+    .divInvisivel{
+        margin-right: 1.6em;
+    }
+}
+@media(max-width:345px){
+    .divInvisivel{
+        margin-right: 1em;
+    }
+}
 .menu-toggle{
     margin-right: 3.5em;
     width: 3em;
@@ -110,6 +126,25 @@ padding-top:0.7em;
 
         background-color:#fed51b;
         box-shadow: 5px 5px  3px #253237 ;
+
+}
+@media(max-width:898px){
+    .menu.on{
+        width:20vw;
+        height:30vh;
+    }
+}
+@media(max-width:700px){
+    .menu.on{
+        width:26vw;
+        height:30vh;
+    }
+}
+@media(max-width:315px){
+    .menu.on{
+        width:30vw;
+        height:30vh;
+    }
 
     }
     .menu.on nav {
