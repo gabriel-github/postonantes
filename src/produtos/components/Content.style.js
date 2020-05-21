@@ -28,7 +28,6 @@ img{
   width:90%;
   max-width:980px;
   height:40vh;
-  margin-top: 7.5vh;
   margin:auto;
   margin-top:4.5vh;
 }
