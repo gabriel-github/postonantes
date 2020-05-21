@@ -10,7 +10,7 @@ background-color: #fed51b;
 width: 100vw;
 height:13vh;
 display:flex;
-justify-content: space-between;
+justify-content:space-between;
 nav{
     display:none;
 }
@@ -74,8 +74,13 @@ padding-top:0.7em;
         padding-top: 1.5em;
     }
 }
+.divInvisivel{
+    margin-right: 1.8em;
+    width: 3em;
+    margin-top: 0.3em;
+}
 .menu-toggle{
-    margin-right: 4em;
+    margin-right: 3.5em;
     width: 3em;
     margin-top: 1.5em;
 }
@@ -91,18 +96,20 @@ padding-top:0.7em;
 .menu.on {
         position: absolute;
         top:0;
-        left: 0;
+        right: 0;
+        bottom:0;
         z-index:10;
         font-weight: 600;
 
-        width:100vw;
-        height:100vh;
+        width:10vw;
+        height:40vh;
 
         display:flex;
         justify-content:center;
         align-items:center;
 
         background-color:#fed51b;
+        box-shadow: 5px 5px  3px #253237 ;
 
     }
     .menu.on nav {
@@ -150,16 +157,15 @@ padding-top:0.7em;
 }
 @media(max-width:700px){
     .menu-toggle{
-        width: 2em;
-        margin-right: 2em;
+        width: 3em;
+        margin-right: 2.5em;
         margin-top: 0.8em;
         
     }
 }
 @media(max-width:315px){
     .menu-toggle{
-        width: 2em;
-        margin-right: 1.2em;
+        margin-right: 1.5em;
         margin-top: 0.8em;
         
     }

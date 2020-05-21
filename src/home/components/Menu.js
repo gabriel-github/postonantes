@@ -1,16 +1,22 @@
 import React,{useState} from 'react';
 
+
 function Menutoggle() {
 
 
   const [classe,setClasse] = useState({
     classediv : false,
+
+  })
+  const [divInvisivel,setDivInvisivel] = useState({
+    divinvisivel : false,
   })
 
-  console.log(classe.classediv)
+  const minhaDivInvisivel = divInvisivel.divinvisivel;
   const menuToggle = classe.classediv;
   return (
-            <div className={menuToggle? 'menu on' : 'menu'} 
+        <div className="divInvisivel">
+           <div className={menuToggle? 'menu on' : 'menu'} 
             onClick={() => setClasse({classediv: !menuToggle})}
             >
                 <div className='menu-toggle'>
@@ -28,6 +34,9 @@ function Menutoggle() {
                 </nav>
             </div>
             </div>
+        </div>
+            
+           
 
   );
 }
