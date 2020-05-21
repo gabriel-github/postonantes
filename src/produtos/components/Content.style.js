@@ -29,7 +29,7 @@ img{
   max-width:980px;
   height:40vh;
   margin:auto;
-  margin-top:4.5vh;
+  margin-top:2vh;
 }
 
 `;
