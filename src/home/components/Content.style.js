@@ -30,6 +30,7 @@ img{
   background-color:#04b5eb;
   height:40vh;
   border-radius:1%;
+  margin-top: 7.5vh;
   margin:auto;
   margin-top:4.5vh;
 }

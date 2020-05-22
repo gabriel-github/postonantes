@@ -29,8 +29,9 @@ img{
   max-width:980px;
   background-color:#04b5eb;
   height:40vh;
+  margin-top: 7.5vh;
   margin:auto;
-  margin-top:2vh;
+  margin-top:4.5vh;
 }
 
 `;
