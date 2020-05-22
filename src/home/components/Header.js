@@ -174,7 +174,7 @@ padding-top:0.7em;
         color:#fff;
     }
     .menu.on nav ul a{
-        transition-duration:0.5s;
+        transition-duration:5s;
         margin-top:30px;
         padding-right:80px;
         color:#fff;

@@ -30,7 +30,7 @@ img{
   height:40vh;
   border-radius:1%;
   margin:auto;
-  margin-top:4.5vh;
+  margin-top:1vh;
 }
 
 `;
