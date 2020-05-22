@@ -27,6 +27,7 @@ align-items:center;
 img{
   width:90%;
   max-width:980px;
+  background-color:#04b5eb;
   height:40vh;
   margin:auto;
   margin-top:2vh;

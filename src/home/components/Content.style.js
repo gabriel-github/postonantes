@@ -27,9 +27,10 @@ align-items:center;
 img{
   width:90%;
   max-width:980px;
+  background-color:#04b5eb;
   height:40vh;
   border-radius:1%;
   margin:auto;
-  margin-top:1vh;
+  margin-top:4.5vh;
 }
 `;
