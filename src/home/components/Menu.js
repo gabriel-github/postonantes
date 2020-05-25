@@ -8,11 +8,7 @@ function Menutoggle() {
     classediv : false,
 
   })
-  const [divInvisivel,setDivInvisivel] = useState({
-    divinvisivel : false,
-  })
 
-  const minhaDivInvisivel = divInvisivel.divinvisivel;
   const menuToggle = classe.classediv;
   return (
         <div className="divInvisivel">

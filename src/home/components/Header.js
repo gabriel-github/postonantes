@@ -182,6 +182,12 @@ padding-top:0.7em;
         line-height: 3rem;
     }
 @media(max-width:898px){
+    .menu.on nav ul a{
+        font: normal 2rem Arial;
+    }
+    
+}
+@media(max-width:898px){
     .menu-toggle{
         width: 2.5em;
         margin-right: 3em;

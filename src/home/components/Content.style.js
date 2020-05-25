@@ -21,7 +21,7 @@ div{
 `
 export const Title = styled.div`
 display:grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
 justify-content:center;
 align-items:center;
 img{
