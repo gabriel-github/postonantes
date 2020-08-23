@@ -129,7 +129,9 @@ export default function footer() {
               </div> 
               <div className="horario">
               Funcionamento de segunda a domindo <br/> das 
-              9:00 am às 20:00 pm
+              9:00 am às 20:00 pm <br/><br/><br/>
+              produtos sujeitos a alterações de valores <br/>
+              se certifique do valor do produto na loja 
               </div>
               </div>
             </footer>
